@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hacking</title>
+  <link rel="icon" href="https://fav.farm/⛔" />
+
+  <link rel="stylesheet" href="./style.css">
+<style>
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hacking-animation {
+  background: #000;
+  height: 100%;
+}
+.hacking-animation__text {
+  bottom: 0;
+  font-family: monospace;
+  font-size: 18px;
+  left: 0;
+  line-height: 1.5rem;
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+}
+.hacking-animation__character {
+  animation: type 500ms linear;
+  color: #00a000;
+}
+
+@keyframes type {
+  0% {
+    background: #FFF;
+    color: #FFF;
+  }
+  5% {
+    background: transparent;
+    color: #FFF;
+  }
+  100% {
+    background: transparent;
+    color: #00a000;
+  }
+}
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="hacking-animation">
+    <pre class="hacking-animation__text">
+    </pre>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script>
+    $(document).ready(function() {
+	const textArray = textString.split('');
+	const textElem = $('.hacking-animation__text');
+
+	let count = 0;
+
+	setInterval(() => {
+			if(textArray[count] === "\n") {
+					textElem.append("<br>");
+			}
+			else {
+					textElem.append(`<span class="hacking-animation__character">${textArray[count]}</span>`);
+			}
+
+			count++;
+			if (count === textArray.length) {
+					count = 0;
+			}
+	}, 20);
+});
+
+var textString = `.
+.
+///cqrCyber Console///
+    <console@hacking>:::cqrCyber
+           Commence winter-hacking module@cqrcyber.15.101.205
+           ...Connecting Kashmir...Connecting...
+...
+...
+//Hacking Protocol Implemented\\\\
+            ://injecting malware...
+            connecting to the server....
+                    matching ...//found 33 matching files...
+{enter. your. Name.}/// -- \\\\password matching\\\\
+  <M> Connecting phishing..:":":":
+  pc
+
+<Phishing Protocol...>
+                / if
+         -----protocol success--
+         ....hacker@hacking or admin@cqrCyber;
+                     !!!System down? System running!!!!Port 5500
+.
+.
+.
+                        PLEASE;;'ENTER;;'PASSWORD
+LOAD .       $%$%$qazWSXedcRFVtgbYHNujmIKol$%$%$%
+      \\\\...Accepting download...
+      \\\\%^^attach{running download}"'';
+
+///
+//
+             /Downloading runware [ runware -v 9 100% ]
+               //or Hide ;
+/
+//
+////CODE.Unzip.Run...&*&&*&;
+      [sd]
+       {hard disk scan}
+
+ZXC..<>Ckfkd<>vkvodkskclc...
+                         { VODKA3421D;CODE10011011101011
+                        ( found 56 matching..//BACK DOOR OPEN )
+<\\\\boZeie\\\\..www.btchackerscentral.com\\\\
+**(AR)12. (696); (96).ffkeoslk
+             0617513060 <<<<>OKAY
+             {FOntsize}:Hard.. CPU-MANAGE 22 //
+             ((open door)) //JAVA_FRAME;
+                           (port Opened)
+                                (portisrunning)// B1 }
+..
+..
+.....
+MUST RUN ALL SERVERS ?? >> {STRING FOUND}
+                        BIND TO PROTOCOL <<DOWN-REGION EXPOSED>> ;;' /
+                          0011011011101110110101101
+                           -----v-----
+                          (  |||/\/\   |    )  <-----
+                          /  ///\\\\   |    \\
+                         /  \||/  \\\\|||||?????/////
+
+/string found
+///CHECKING DRIVES
+....ALSOFOUNDDISKDRIVE
+          ///(SHUTDOWN HACKING)
+             {WHIPE-DRIVE}
+          whipe found..
+S1293 K // P 430
+         @cqrcyber.. VERSION 10.10.20.1067
+...
+.....
+...
+....
+...`
+  </script>
+
+</body>
+</html>
